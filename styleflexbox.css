@@ -1,0 +1,478 @@
+
+
+@font-face {
+	font-family: 'Rubik', sans-serif;
+}
+/** {
+	box-sizing: border-box;
+}*/
+* {
+	margin:0;
+	padding: 0;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #fff;
+	font-family: 'Rubik', sans-serif;
+	line-height: 1.5;
+	color: #1c363d;
+	margin: 0; 
+	}
+
+h1 {
+	font-size: 2em; /*72px/16px =4.5em*/
+	color: #44474c;
+/*		line-height: 1.2;*/
+	text-shadow: 1px 3px 5px #51aac1;
+
+}
+/*
+h2 {
+	text-align: center;
+	border-bottom: 5px dotted #1c363d;
+	margin-top: 50px;
+}
+*/
+.wrap-intro{
+	margin-top: 1em;
+	margin-left: .5em;
+	background-color: #daedef;
+}
+.navlist{
+	display: flex;
+	/*margin: 0;*/
+}
+.navlist li{
+	
+	display: flex;
+	
+	margin: auto;
+	align-items: center;
+	
+}
+
+ .navlist li a {
+	color: #3acec2;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+	width: 75px;
+	/*padding: 10px 15px;*/
+	background-color: #fff;
+	border: solid 1px black; 
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+/*makes the header(and background-color) go all the way up the page and with some padding on the bottom*/
+header {
+	background-color: #5fbbd2;
+	text-align: center;
+	/*padding: 20px 0px 20px 0px;*/
+	min-height: 100px;
+	border-bottom: 10px solid #1c363d ;
+
+}
+.header-under-title{
+		display: none;
+}
+
+.heading-intro{
+	padding-top: 0.5em;
+
+}
+p {
+	margin-bottom: 20px;
+}
+
+
+.resources-list {
+	display:flex;
+	flex-wrap: wrap;
+	max-width: 1000px;
+		
+	
+}
+.resources-list li{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	/*align-items: center;*/
+}
+.resources-list li a{
+	color: #3acec2;
+	text-align: center;
+	text-decoration: none;
+	width: 125px;
+	padding: 10px 15px;
+	background-color: #fff;
+	border: solid 1px black; 
+	margin:5px;
+	
+}
+#resources-heading {
+	font-weight: 300;
+	display: flex;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-bottom: 1em;
+		
+}	
+.resource-tips{
+	margin-left: 2em;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*.main-header {
+	background: linear-gradient( 0deg, #4fbacc, transparent 90%),#077b8e*/
+	            /*url('../img/codehead.jpg');*/
+/*	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	 	
+
+/*testing out buttons*/
+/*button {
+  color: white;
+  background: #508abc;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}*/
+
+
+
+/*********BLOG**************/
+
+/*#whymother {
+	float: left;
+}*/
+
+/*#blog {
+	font-size: 50px;
+}
+
+#beginning {
+	text-align: center;
+}*/
+
+/*styling date is not working*//************************************/
+/*.date { 
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: red;
+}
+
+article {
+	margin-bottom: 50px;
+}*/
+/*margin is not working as I want it to.I want margin on the left and right*/
+/*article p {
+	max-width: 50%
+	margin-left:5%;
+	margin-right: 5%;
+}
+
+article header {
+	width: 50%;
+	margin-left: 25%;
+	border-bottom: 5px solid #1c363d;
+	max-height: 90px; Maby this should be deleted, can't decide on styling
+	
+}
+
+.wrapper {
+		min-height: calc(100vh - 260px);
+	}*/
+
+/*INDEX/HOME*/
+/*#mail {
+	text-align: center;
+}
+*/
+
+
+
+/*
+aside ul li {
+	padding-bottom: 5px;
+
+}*/
+img {
+	width:75%;
+	margin-left: 1em;
+	/*display: block;*/
+	/*margin-right: auto;
+	margin-left: auto;*/
+	/*margin-bottom: 30px;*/
+	border:5px solid #1c363d;
+	} /*not supported in HTML5*/
+	/*margin-top: 10px;
+	max-width: 100%;*/
+	/*min-width: 75%;*/
+/*	border-radius: 175px;
+}*/
+
+#codehead {
+	border-radius: 20px;
+}
+/*
+section {*/
+	/*max-width: 75%;
+	/*margin-left: 5%;
+	margin-right: 5%;
+	display: auto;*/
+
+
+
+footer {
+	background-color: #4fbacc;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 5px #1c363d;
+	border-top: 5px solid #1c363d;
+	/*display: inline-block;*/
+	/*overflow: auto;*/ 
+	margin-top: 25px;
+
+
+}
+
+/*#contact-footer {
+	margin-top: 800px;
+
+}*/
+/*#contact-list {
+	box-sizing: border-box;
+	float: none;
+	margin-top: 50px;
+
+}*/
+
+/*Pseudo-classes-------------*/
+/*Link styling*/
+/*a:link {
+
+	color: #000;*/
+	/*text-decoration: none;*/
+}
+/*.resources-list  li{
+	text-decoration: none;
+}*/
+
+a:visited {
+	color: #070707;
+}
+
+a:hover {
+	/*font-size: 1.25em;*/
+	background-color: #4fbacc;
+	text-transform: uppercase;
+}/*
+.navlist li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+a:active {
+	color: coral;
+}
+
+:focus {
+	color: white;
+	background-color: darkblue;
+}
+
+/*Media queries--------------*/
+
+@media (min-width: 769px) {
+	.title {
+		font-size: 4em;
+		padding-bottom: 20px;
+	}
+	.header-under-title{
+		display: block;
+		font-size: 1.5em;
+		color: #44474c;
+	}
+	.wrap-intro {
+		display: flex;
+		width: 100%;
+		align-items: center;
+	}
+	.primary-content {
+		flex-grow: 2;
+		margin-left: 2em;
+		margin-right: 1em;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	#codehead {
+		flex-grow: 1;
+		margin-right: 2em;
+		min-width: 300px;
+
+	}
+	.col {
+		/*flex-direction: row;
+		/*flex-basis: 200px;*/*/
+		border: solid 1px red;
+	}
+	.heading-intro {
+		width: 100%;
+	}
+	/*.main-nav {
+		align-items: center;
+	}*/
+	.navlist {
+		display: flex;
+		width: 60%;
+		margin:auto;
+
+		
+	}
+	.navlist li {
+		width: 100px;
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		/*border: solid 2px red;*/
+	}
+	.navlist li a { 
+		padding: 10px 15px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	
+	footer {
+		background-color: #4fbacc;
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		border-bottom: solid 10px #1c363d;
+		border-top: 10px solid #1c363d;
+	}
+	
+}
+
+@media (min-width: 1366px) {
+	.wrap-intro {
+		width: 60%;
+		padding: 20px;
+		border: none;
+		margin: auto;
+		min-width: 1072px;
+	}
+	.main-header {
+		max-height: 380px;
+		padding: 50px 25px 0;
+		background-image: linear-gradient(#fff,#4fbacc);	            
+	}
+	.navlist {
+		width: 50%;
+		max-width: 1000px;
+	}
+	#codehead {
+		/*box-sizing: border-box;*/ 
+		max-width: 500px;
+	}
+
+@media screen only and(max-width: 320px) {
+	 .navlist {
+	 	flex-wrap: wrap;
+	 }
+}
+
+	/*.wrapper {
+		min-height: 100vh;
+	}This didnt work...had to put it outside query*/
+
+/*	h1 {
+		font-size: 2rem;
+		border: none;
+		line-height: 1.1;
+
+	}
+
+	p {
+		font-size: 0.9rem;
+	}*/
+
+	/*.header-under-title {
+		font-weight: 600;
+	}*/
+
+	/*/*footer p {  /*This is not working....
+		padding-bottom: 0;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	#resources-heading {
+		font-size: 1rem;
+	}*/
+
+	/*.navlist li {
+		box-sizing: border-box;
+		padding: 20px;
+		font-weight: 500;
+		width: 80px;
+		height: 20px;
+		/*border: 1px solid red;*/
+		/*background-color: #4fbacc;
+		float: none;*/
+		/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		display: inline-block;*/
+		
+
+
+	}
+
+
+}
+/*
+@media only screen and (max-width: 749px) {
+	.primary-content {
+		width: 90%;
+		padding: 20px;
+		border: none;
+	}
+	.main-header {
+		max-height: 380px;
+		padding: 50px 25px 0;
+		background-image: linear-gradient(#4fbacc, #fff);
+	            
+	}
+
+	h1 {
+		font-size: 2rem;
+		border: none;
+		line-height: 1.1;
+
+	}
+
+	p {
+		font-size: 0.9rem;
+	}*/
+
+	/*.header-under-title {
+		font-weight: 600;
+	}*/
+
+	
+
+/*	#resources-heading {
+		font-size: 1rem;
+	}
+*/
+
+}/*/*/

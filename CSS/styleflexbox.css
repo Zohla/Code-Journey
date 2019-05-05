@@ -88,7 +88,15 @@ header {
 p {
 	margin-bottom: 20px;
 }
-
+#codehead {
+	width:75%;
+	margin-left: 1em;
+	/*display: block;*/
+	/*margin-right: auto;
+	margin-left: auto;*/
+	/*margin-bottom: 30px;*/
+	border:5px solid #1c363d;
+}
 
 .resources-list {
 	display:flex;
@@ -236,20 +244,30 @@ aside ul li {
 	padding-bottom: 5px;
 
 }*/
-img {
+
+/*************************************ABOUT*********************************************/
+#whymother{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #daedef;
+	padding: 20px; 
+}
+.pic-maren {
 	width:75%;
+	max-width: 200px; 
 	margin-left: 1em;
 	/*display: block;*/
 	/*margin-right: auto;
 	margin-left: auto;*/
 	/*margin-bottom: 30px;*/
 	border:5px solid #1c363d;
-	} /*not supported in HTML5*/
+	/*not supported in HTML5*/
 	/*margin-top: 10px;
 	max-width: 100%;*/
 	/*min-width: 75%;*/
-/*	border-radius: 175px;
-}*/
+	border-radius: 175px;
+}
 
 #codehead {
 	border-radius: 20px;
@@ -288,6 +306,12 @@ footer {
 
 }*/
 /*******Resources**************/
+.resource-section{
+	background-color: #daedef;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
 .resource-info li {
 	margin-top: 3em;
 	list-style: none;
@@ -302,12 +326,19 @@ span {
 	background-color: lightblue ;
 }
 
-
+/*********************CONTACT***********************************************************/
+.contact-main{
+	display: flex;
+	flex-direction: column;
+	
+}
 /*Pseudo-classes-------------*/
 /*Link styling*/
-/*a:link {
+a:link {
+	font-size: 1.2em;
 
-	color: #000;*/
+
+	color: #000;
 	/*text-decoration: none;*/
 }
 /*.resources-list  li{
@@ -411,12 +442,21 @@ a:active {
 		border-bottom: solid 10px #1c363d;
 		border-top: 10px solid #1c363d;
 	}
+	footer p {
+		font-size: 1.5em;
+	}
 	.resource-section{
 		margin:auto;
 		max-width: 1000px;
 		font-size: 20px;
 
 
+	}
+	.pic-maren {
+		flex-grow: 1;
+	}
+	.about {
+		flex-grow: 2;
 	}
 }
 

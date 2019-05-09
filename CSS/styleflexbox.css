@@ -3,13 +3,11 @@
 @font-face {
 	font-family: 'Rubik', sans-serif;
 }
-/** {
-	box-sizing: border-box;
-}*/
+
 * {
 	margin:0;
 	padding: 0;
-	/*text-decoration: none;*/
+	
 }
 body {
 	display: flex;
@@ -29,14 +27,8 @@ h1 {
 	text-shadow: 1px 3px 5px #51aac1;
 
 }
-/*
-h2 {
-	text-align: center;
-	border-bottom: 5px dotted #1c363d;
-	margin-top: 50px;
-}
-*/
-.wrap-intro{
+
+.wrap-intro {
 	margin-top: 1em;
 	margin-left: .5em;
 	background-color: #daedef;
@@ -68,7 +60,7 @@ h2 {
 
 }
 
-/*makes the header(and background-color) go all the way up the page and with some padding on the bottom*/
+
 header {
 	background-color: #5fbbd2;
 	text-align: center;
@@ -109,7 +101,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	margin: auto;
-	/*align-items: center;*/
+	
 }
 .resources-list li a{
 	color: #000;
@@ -159,7 +151,7 @@ p {
 
 
 
-/*********BLOG**************/
+/******************************************************BLOG**************/
 
 .primary-content,
 section {
@@ -173,8 +165,9 @@ article {
 }
 article header {
 	margin-top: 50px;
-	margin-bottom: 10px;
-	padding-top: 20px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+
 
 }
 article header h3 {
@@ -190,6 +183,22 @@ article header h3 {
 	font-size: .75em;
 	
 }
+.blog_picture {
+	width:75%;
+	max-width: 200px;
+	border: solid 1px black;
+	
+}
+.blogpost {
+	display: flex;
+	
+	/*justify-content: space-between;*/
+}
+.blogtext {
+	margin-left: 20px; 
+
+}
+
 /*#whymother {
 	float: left;
 }*/
@@ -253,7 +262,7 @@ aside ul li {
 	background-color: #daedef;
 	padding: 20px; 
 }
-.pic-maren {
+.pic-maren{
 	width:75%;
 	max-width: 200px; 
 	margin-left: 1em;
@@ -330,8 +339,15 @@ span {
 .contact-main{
 	display: flex;
 	flex-direction: column;
+	margin:auto; 
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #daedef;
+
+
 	
 }
+
 /*Pseudo-classes-------------*/
 /*Link styling*/
 a:link {
@@ -527,10 +543,7 @@ a:active {
 		
 
 
-	}
 
-
-}
 /*
 @media only screen and (max-width: 749px) {
 	.primary-content {
@@ -567,4 +580,4 @@ a:active {
 	}
 */
 
-}/*/*/
+/*/*/

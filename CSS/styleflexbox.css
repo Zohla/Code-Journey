@@ -355,11 +355,9 @@ a:link {
 
 
 	color: #000;
-	/*text-decoration: none;*/
+
 }
-/*.resources-list  li{
-	text-decoration: none;
-}*/
+
 
 a:visited {
 	color: #070707;
@@ -368,19 +366,7 @@ a:visited {
 a:hover {
 	/*font-size: 1.25em;*/
 	background-color: #4fbacc;
-	text-transform: uppercase;
-}/*
-.navlist li a:hover {
-	color: #000;
-	background-color: #fff;
-}
-a:active {
-	color: coral;
-}
-
-:focus {
-	color: white;
-	background-color: darkblue;
+	
 }
 
 /*Media queries--------------*/
@@ -418,17 +404,11 @@ a:active {
 		min-width: 300px;
 
 	}
-	.col {
-		/*flex-direction: row;
-		/*flex-basis: 200px;*/*/
-		border: solid 1px red;
-	}
+	
 	.heading-intro {
 		width: 100%;
 	}
-	/*.main-nav {
-		align-items: center;
-	}*/
+	
 	.navlist {
 		display: flex;
 		width: 60%;
@@ -442,7 +422,7 @@ a:active {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		/*border: solid 2px red;*/
+		
 	}
 	.navlist li a { 
 		padding: 10px 15px;
@@ -490,7 +470,7 @@ a:active {
 		max-width: 1000px;
 	}
 	#codehead {
-		/*box-sizing: border-box;*/ 
+	
 		max-width: 500px;
 	}
 
@@ -500,84 +480,4 @@ a:active {
 	 }
 }
 
-	/*.wrapper {
-		min-height: 100vh;
-	}This didnt work...had to put it outside query*/
-
-/*	h1 {
-		font-size: 2rem;
-		border: none;
-		line-height: 1.1;
-
-	}
-
-	p {
-		font-size: 0.9rem;
-	}*/
-
-	/*.header-under-title {
-		font-weight: 600;
-	}*/
-
-	/*/*footer p {  /*This is not working....
-		padding-bottom: 0;
-		margin-bottom: 0;
-		margin-top: 0;
-	}
-
-	#resources-heading {
-		font-size: 1rem;
-	}*/
-
-	/*.navlist li {
-		box-sizing: border-box;
-		padding: 20px;
-		font-weight: 500;
-		width: 80px;
-		height: 20px;
-		/*border: 1px solid red;*/
-		/*background-color: #4fbacc;
-		float: none;*/
-		/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-		display: inline-block;*/
-		
-
-
-
-/*
-@media only screen and (max-width: 749px) {
-	.primary-content {
-		width: 90%;
-		padding: 20px;
-		border: none;
-	}
-	.main-header {
-		max-height: 380px;
-		padding: 50px 25px 0;
-		background-image: linear-gradient(#4fbacc, #fff);
-	            
-	}
-
-	h1 {
-		font-size: 2rem;
-		border: none;
-		line-height: 1.1;
-
-	}
-
-	p {
-		font-size: 0.9rem;
-	}*/
-
-	/*.header-under-title {
-		font-weight: 600;
-	}*/
-
 	
-
-/*	#resources-heading {
-		font-size: 1rem;
-	}
-*/
-
-/*/*/
